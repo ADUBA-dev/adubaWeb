@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 :root {
   --primary-color: #04a842;
-  --orange:#f77c34;
+  --green1:#8dff00;
+  --orange:#E05234;
+  --orange2: rgba(255, 165, 0,0.7);
+  ;
 }
 
 body {
@@ -61,7 +64,7 @@ section {
 .left-col .subhead {
   text-transform: uppercase;
   font-weight: bold;
-  color: gray;
+  color: var(--orange2);
   letter-spacing: 0.3em;
 }
 
@@ -80,6 +83,7 @@ section {
   border-radius: 5em;
   font-weight: bold;
   display: inline-block;
+  margin-bottom: 20px;
 }
 
 .left-col .watch-video-cta {
